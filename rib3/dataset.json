@@ -1,0 +1,115 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "size": 165365,
+      "mtime": "2021-03-26 07:23:23",
+      "fname": "/mnt/d/rib3/meta.tsv",
+      "md5": "0daae830e3"
+    },
+    "outMeta": {
+      "size": 161818,
+      "mtime": "2021-03-26 07:23:56",
+      "fname": "./public_html/rib3/meta.tsv",
+      "md5": "1474db709c"
+    },
+    "outMatrix": {
+      "mtime": "2021-03-26 07:21:43",
+      "md5": "2c9174192a",
+      "fname": "./public_html/rib3/exprMatrix.tsv.gz",
+      "size": 10965971
+    },
+    "inMatrix": {
+      "mtime": "2021-03-26 07:20:01",
+      "md5": "2c9174192a",
+      "fname": "/mnt/d/rib3/exprMatrix.tsv.gz",
+      "size": 10965971
+    },
+    "conf": {
+      "size": 340,
+      "mtime": "2021-03-26 07:23:23",
+      "fname": "/mnt/d/rib3/cellbrowser.conf",
+      "md5": "b701f4fd55"
+    }
+  },
+  "matrixArrType": "Float32",
+  "sampleCount": 3546,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 29,
+      "diffValCount": 3546,
+      "md5": "95c0111c96"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 842,
+      "md5": "2a9140cbe4"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 589,
+      "md5": "c10beebd70"
+    },
+    {
+      "name": "cluster",
+      "label": "cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Frib C",
+          2524
+        ],
+        [
+          "Frib PC",
+          664
+        ],
+        [
+          "Frib Stro",
+          217
+        ],
+        [
+          "erythrocyte",
+          95
+        ],
+        [
+          "leukocyte",
+          46
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 5,
+      "md5": "3c09fc7f62"
+    }
+  ],
+  "labelField": "cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "6b578c927a",
+      "minX": 0,
+      "maxX": 65534,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "name": "rib3",
+  "shortLabel": "rib3",
+  "clusterField": "cluster",
+  "md5": "ecb1745c27"
+}

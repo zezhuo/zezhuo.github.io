@@ -1,0 +1,19 @@
+{
+  "name": "rib3",
+  "shortLabel": "rib3",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "cluster",
+  "labelField": "cluster",
+  "enumFields": [
+    "cluster"
+  ],
+  "coords": [
+    {
+      "shortLabel": "Seurat umap",
+      "file": "/mnt/d/rib3/umap.coords.tsv"
+    }
+  ],
+  "inDir": ""
+}

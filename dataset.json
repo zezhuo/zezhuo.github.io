@@ -2,19 +2,13 @@
   "shortLabel": "All Datasets",
   "datasets": [
     {
+      "sampleCount": 3546,
       "hasFiles": [
         "datasetDesc"
       ],
-      "tags": [
-        "smartseq2"
-      ],
-      "sampleCount": 4261,
-      "shortLabel": "CellBrowser 100-genes demo",
-      "body_parts": [
-        "brain"
-      ],
-      "md5": "de38be9b0c",
-      "name": "sample"
+      "shortLabel": "rib3",
+      "name": "rib3",
+      "md5": "ecb1745c27"
     }
   ],
   "name": "",

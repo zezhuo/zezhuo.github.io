@@ -1,0 +1,6 @@
+{
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz"
+  ],
+  "matrixFile": "./public_html/rib3/exprMatrix.tsv.gz"
+}
